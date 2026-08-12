@@ -29,9 +29,10 @@
       ],
       templates: [
         { id: 't-1', name: '休み' },
-        { id: 't-2', name: '歯医者' },
-        { id: 't-3', name: 'プール' },
-        { id: 't-4', name: 'ロボット教室' },
+        { id: 't-2', name: '病院' },
+        { id: 't-3', name: '買い物' },
+        { id: 't-4', name: '誕生日' },
+        { id: 't-5', name: '出張' },
       ],
       events: [],
     };
