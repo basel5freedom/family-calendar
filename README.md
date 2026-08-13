@@ -125,8 +125,10 @@ service cloud.firestore {
 ### 5. Webアプリを登録し、設定値を取得する
 
 1. 左メニュー上部の歯車アイコン **「設定」** をクリックする（「プロジェクトの設定」画面が開きます）
-2. 「マイアプリ」で `</>`（ウェブ）アイコンをクリックしてアプリを登録（Firebase Hostingは不要なのでチェックしなくてOK）
-3. 表示される `firebaseConfig` の中の値（`apiKey`, `authDomain`, `projectId`, `storageBucket`, `messagingSenderId`, `appId`）を控える
+2. 「マイアプリ」で `</>`（ウェブ）アイコンをクリック
+3. 「アプリのニックネーム」に好きな名前（例: `マイ ウェブアプリ` のままでもOK）を入力
+4. 「このアプリのFirebase Hostingも設定します」のチェックは**入れずに**、「アプリを登録」をクリック
+5. 表示される `firebaseConfig` の中の値（`apiKey`, `authDomain`, `projectId`, `storageBucket`, `messagingSenderId`, `appId`）を控える
 
 これらの値はFirebaseの仕組み上、外部に見られても問題ない値です（実際のアクセス制御はステップ4のセキュリティルールが担っています）。
 
